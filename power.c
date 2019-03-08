@@ -14,7 +14,7 @@ float powerInt(float x, int y)
             return x*temp*temp; 
         else
 	//b1
-            return (temp*temp); 
+            return (temp*temp/x); 
     } 
 }   
 float cube(float x){
