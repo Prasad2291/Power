@@ -20,9 +20,7 @@ float powerInt(float x, int y)
 float cube(float x){
 	int temp = 1;
 	//b2
-	if(x == 0){
-		return 0;
-	}
+	//Float comparison not possible
 	int i = 0;
 	for(i = 0; i < 3; i++){
 		temp = temp * x;
